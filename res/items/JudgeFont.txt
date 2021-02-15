@@ -1,0 +1,15 @@
+0:Default
+1:Digital
+2:Smart
+3:Metallic Blue
+4:Techno
+5:Wire
+6:Abyss
+7:SPADA
+8:Ancient
+9:Only One Judge
+10:Electronic
+11:SINOBUZ
+12:Segment
+13:Rootage
+14:HEROIC VERSE

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loading_dialog</class>
+ <widget class="QDialog" name="loading_dialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>381</width>
+    <height>101</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>2dxcustomize</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../res/assets.qrc">
+    <normaloff>:/graphics/icon.ico</normaloff>
+    <normalon>:/graphics/icon.ico</normalon>
+    <disabledoff>:/graphics/icon.ico</disabledoff>
+    <disabledon>:/graphics/icon.ico</disabledon>
+    <activeoff>:/graphics/icon.ico</activeoff>
+    <activeon>:/graphics/icon.ico</activeon>
+    <selectedoff>:/graphics/icon.ico</selectedoff>
+    <selectedon>:/graphics/icon.ico</selectedon>:/graphics/icon.ico</iconset>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="state_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>9</y>
+     <width>361</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Waiting for game process..</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progress_bar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>361</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>0</number>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close_button">
+   <property name="geometry">
+    <rect>
+     <x>297</x>
+     <y>66</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res/assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

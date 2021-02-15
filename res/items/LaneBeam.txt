@@ -1,0 +1,12 @@
+0:Default
+1:Short
+2:Long
+3:Orange
+4:Pink
+5:Monochrome
+6:Very Short
+7:Lightning
+8:Only One Beam
+9:copulight
+10:CANNON BEAM
+11:HEROIC VERSE

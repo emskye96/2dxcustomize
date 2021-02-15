@@ -1,0 +1,21 @@
+0:Default
+1:3rd Style
+2:9th Style
+3:IIDX RED
+4:HAPPY SKY
+5:DistorteD
+6:GOLD
+7:DJ TROOPERS
+8:EMPRESS
+9:SIRIUS
+10:Resort Anthem
+11:Lincle
+12:tricoro
+13:SPADA
+14:Only One Bomb
+15:PENDUAL
+16:copula
+17:SINOBUZ
+18:CANNON SPARK
+19:Rootage
+20:HEROIC VERSE

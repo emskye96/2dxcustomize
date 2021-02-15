@@ -1,0 +1,13 @@
+<RCC>
+    <qresource>
+        <file>items/Burst.txt</file>
+        <file>items/FullComboEffect.txt</file>
+        <file>items/JudgeFont.txt</file>
+        <file>items/LaneBeam.txt</file>
+        <file>items/LaneCover.txt</file>
+        <file>items/NoteSkin.txt</file>
+        <file>items/Turntable.txt</file>
+        <file>graphics/banner.png</file>
+        <file>graphics/icon.ico</file>
+    </qresource>
+</RCC>

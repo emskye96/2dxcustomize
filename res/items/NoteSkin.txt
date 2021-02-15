@@ -1,0 +1,12 @@
+0:Default
+1:Thin
+2:Extreme
+3:Gorgeous
+4:Aqua
+5:Gal
+6:Photon
+7:Pastel
+8:Simple
+9:Light
+10:tricoro
+11:Bubble
