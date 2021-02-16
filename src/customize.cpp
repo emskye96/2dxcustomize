@@ -8,8 +8,7 @@ namespace app
 		_process(process) {}
 
 	/**
-	 * Searches for code patterns inside the 'bm2dx.exe' module & calls 'find_items' to
-	 * populate the count variables for each item.
+	 * Searches for code patterns inside the 'bm2dx.exe' module.
 	 *
 	 * @return Whether all patterns were found successfully.
 	 */
