@@ -7,8 +7,6 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(REQUIRED_LIBS Core Gui Widgets)
-
 add_executable(${PROJECT_NAME} WIN32
     src/main.cpp
     src/context.cpp
