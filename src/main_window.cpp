@@ -12,9 +12,6 @@ main_window::main_window(app::context* context):
 {
 	_ui->setupUi(this);
 
-	// Prevent the window from being resized.
-	setFixedSize(width(), height());
-
 	// Load the somewhat pointless banner image.
 	_ui->banner->setScene(_scene);
 	_scene->addItem(_banner);

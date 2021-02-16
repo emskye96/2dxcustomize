@@ -7,9 +7,6 @@ loading_dialog::loading_dialog(app::context* context):
 {
 	_ui->setupUi(this);
 
-	// Prevent the window from being resized.
-	setFixedSize(width(), height());
-
 	// Exit when the close button is clicked.
 	connect(_ui->close_button, &QPushButton::clicked, [] () { exit(EXIT_FAILURE); });
 }
