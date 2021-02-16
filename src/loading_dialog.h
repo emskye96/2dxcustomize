@@ -21,7 +21,7 @@ class loading_dialog: public QDialog
 		void start_init_timer();
 	private:
 		bool _ready = false;
-		QTimer* _timer = nullptr;
 		app::context* _context = nullptr;
+		QTimer* _timer = nullptr;
 		Ui::loading_dialog* _ui = nullptr;
 };

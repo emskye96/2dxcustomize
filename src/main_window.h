@@ -18,7 +18,7 @@ class main_window: public QMainWindow
 		~main_window() override;
 	private:
 		app::context* _context = nullptr;
+		Ui::main_window* _ui = nullptr;
 		QGraphicsScene* _scene = nullptr;
 		QGraphicsPixmapItem* _banner = nullptr;
-		Ui::main_window* _ui = nullptr;
 };
