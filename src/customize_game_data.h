@@ -19,14 +19,15 @@ struct CCustomizeGameData
 	std::int32_t p1_lane_beam; //0x001C
 	std::uint8_t pad_0020[4]; //0x0020
 	std::int32_t p1_judge_font; //0x0024
-	std::int32_t p2_note_skin; //0x0028
-	std::int32_t p2_burst; //0x002C
-	std::int32_t p2_turntable; //0x0030
-	std::int32_t p2_lane_cover; //0x0034
-	std::int32_t p2_full_combo_effect; //0x0038
-	std::int32_t p2_lane_beam; //0x003C
-	std::uint8_t pad_0040[4]; //0x0040
-	std::int32_t p2_judge_font; //0x0044
+	std::uint8_t pad_0028[4]; //0x0028
+	std::int32_t p2_note_skin; //0x002C
+	std::int32_t p2_burst; //0x0030
+	std::int32_t p2_turntable; //0x0034
+	std::int32_t p2_lane_cover; //0x0038
+	std::int32_t p2_full_combo_effect; //0x003C
+	std::int32_t p2_lane_beam; //0x0040
+	std::uint8_t pad_0044[4]; //0x0044
+	std::int32_t p2_judge_font; //0x0048
 
 	/**
 	 * @return The current burst item index.
@@ -148,4 +149,4 @@ struct CCustomizeGameData
 	}
 };
 
-static_assert(sizeof(CCustomizeGameData) == 0x48);
+static_assert(sizeof(CCustomizeGameData) == 0x50);
