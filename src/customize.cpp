@@ -14,7 +14,7 @@ namespace app
 	 */
 	bool customize::find_pointers()
 	{
-		auto game_data_ptr = _process->find_pattern("48 8B 05 ? ? ? ? 83 78 54");
+		auto game_data_ptr = _process->find_pattern("48 8B 05 ? ? ? ? 41 B8 02");
 		auto first_item_ptr = _process->find_pattern("49 31 31 30 30 30 30 30"); // "I1100000"
 		
 		if (game_data_ptr == nullptr || first_item_ptr == nullptr)
